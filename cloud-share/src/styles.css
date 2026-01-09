@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --slate-600: oklch(55.4% 0.046 257.417);
+  --slate-700: oklch(44.6% 0.043 257.281);
+  --slate-800: oklch(37.2% 0.044 257.287);
+  --slate-900: oklch(20.8% 0.042 265.755);
+  --sky-950: oklch(29.3% 0.066 243.157);
+}
+
+body {
+  background-color: var(--slate-700)  ;
+}
