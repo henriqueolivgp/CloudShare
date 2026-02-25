@@ -3,7 +3,9 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./out-tsc/app",
+    "outDir": "./out-tscapp",
+    // we need add this because we using src folder
+    "rootDir": "./src",
     "types": []
   },
   "include": [
