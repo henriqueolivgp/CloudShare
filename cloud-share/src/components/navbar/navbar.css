@@ -1,0 +1,43 @@
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+  width: 100%;
+
+  background-color: white;
+}
+
+.logo{
+  width: 4rem;
+}
+
+.item-list{
+  display: flex;
+  gap: 6rem;
+  /* right: 10px; */
+  list-style: none;       /* Remove dot bullets */
+  padding: 0;             /* Remove default padding */
+  margin: 0;              /* Remove default margin */
+}
+
+.item a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.item a:hover {
+  padding: 6px;
+  background-color: aquamarine;
+  border-radius: 4px;
+}
+
+.button-item{
+  width: 100px;
+  border: 1 solid var(--slate-700);
+  background-color: var(--slate-700);
+}
+
+
